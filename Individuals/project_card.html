@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    /* PROJECT CARDS */
+
+    .card-group {
+      display: flex;
+      /* margin: auto; */
+      width: 100%;
+      height: 600px;
+    }
+
+    .card {
+      flex-basis: 25%;
+      position: relative;
+      max-width: 360px;
+    }
+
+    #overlay2 {
+      background-color: rgba(0, 33, 91, 0.75);
+    }
+
+    #overlay3 {
+      background-color: rgba(210, 21, 61, 0.75);
+    }
+
+    #overlay4 {
+      background-color: rgba(0, 33, 91, 0.75);
+    }
+
+    #overlay2 .btn {
+      --bs-btn-padding-y: 0.7rem;
+      --bs-btn-padding-x: 1.2rem;
+      --bs-btn-font-size: 0.9rem;
+      border-radius: 0;
+    }
+
+    #overlay3 .btn {
+      --bs-btn-padding-y: 0.7rem;
+      --bs-btn-padding-x: 1.2rem;
+      --bs-btn-font-size: 0.9rem;
+      border-radius: 0;
+      background-color: rgba(0, 33, 91, 1);
+
+    }
+
+    #overlay4 .btn {
+      --bs-btn-padding-y: 0.7rem;
+      --bs-btn-padding-x: 1.2rem;
+      --bs-btn-font-size: 0.9rem;
+      border-radius: 0;
+    }
+
+    #overlay4 .btn {
+      position: relative;
+      bottom: -150px;
+      right: -220px;
+    }
+
+    #overlay3 .btn {
+      position: relative;
+      bottom: -150px;
+      right: -220px;
+    }
+
+    #overlay2 .btn {
+      position: relative;
+      bottom: -150px;
+      right: -220px;
+    }
+
+
+    @media only screen and (max-width: 1440px) {
+      .card-group {
+        flex-direction: column;
+      }
+    }
+
+    @media only screen and (max-width: 576px) {
+      .card-group {
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div className='container'>
+      <div className='row justify-content-center'>
+        <div className='col-11 p-0'>
+          <div class="card-group my-5 justify-content-center">
+            
+            <div class="card text-bg-dark">
+              <img src="/professional-architect-woman-standing-outdoors-NDAEJH5 (1).png"
+                class="card-img img-fluid h-100" alt="Architect">
+              <div class="card-img-overlay" id="overlay1">
+                <h1 class="card-title fw-bold my-4 mx-4">Our <br>Services</h1>
+                <p class="card-text mt-4 mx-4">Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                  voluptatum deleniti atque corrupti quos dolores.</p>
+
+              </div>
+            </div>
+            <div class="card text-bg-dark">
+              <img src="/industrial-landscape-building-crane-against-the-bl-8T3EXGK.png" class="card-img  img-fluid"
+                alt="Industrial Landscape">
+              <div class="card-img-overlay" id="overlay2">
+                <h2 class="card-title fw-bold mt-4 mx-4">Residential <br> Project</h2>
+                <p class="card-text mt-4 mx-4">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                  cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum
+                  et
+                  dolorum fuga.”</p>
+                <button type="button" class="btn btn-danger mx-4 "><strong>-></strong></button>
+              </div>
+            </div>
+            <div class="card text-bg-dark">
+              <img src="crane-and-building-construction-site-on-background-BPZXL3M.png" class="card-img img-fluid"
+                alt="Crane and Building Construction">
+              <div class="card-img-overlay" id="overlay3">
+                <h2 class="card-title fw-bold mt-4 mx-4">Commercial <br> Projects</h2>
+                <p class="card-text mt-4 mx-4">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                  cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum
+                  et
+                  dolorum fuga.”</p>
+                <button type="button" class="btn mx-4 text-light"><strong>-></strong></button>
+              </div>
+            </div>
+            <div class="card text-bg-dark">
+              <img src="new-build-houses-3HYUECX (1).png" class="card-img img-fluid" alt="New Building Houses">
+              <div class="card-img-overlay" id="overlay4">
+                <h2 class="card-title fw-bold mt-4 mx-4">Historical <br> Projects</h2>
+                <p class="card-text mt-4 mx-4">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                  cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum
+                  et
+                  dolorum fuga.”.</p>
+                <button type="button" class="btn btn-danger mx-4"><strong>-></strong></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

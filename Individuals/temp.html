@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/custom.css">
+    <style>
+        /* Custom styles for the double line content navbar */
+        .double-line-content-navbar {
+            background-color: #f8f9fa;
+            /* Background color for the entire navbar */
+            padding: 10px;
+            /* Padding for the entire navbar */
+            border-bottom: 1px solid #ddd;
+            /* Bottom border for the first line */
+        }
+
+        .double-line-content-navbar .navbar-brand {
+            font-weight: bold;
+            /* Bold font for the brand */
+            font-size: 1.5rem;
+            /* Larger font size for the brand */
+        }
+
+        .double-line-content-navbar .navbar-nav {
+            margin-top: 10px;
+            /* Top margin for the second line */
+        }
+
+        .double-line-content-navbar .navbar-nav .nav-item {
+            margin-bottom: 5px;
+            /* Bottom margin for each item in the second line */
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+        .navbar{
+            content: "";
+            position: relative;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            border: 2px solid orangered;
+        }
+    </style>
+    <title>Double Line Content Navbar</title>
+</head>
+double-line-content-navbar
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <!-- <a class="navbar-me" href="#">
+                <img src="/navbar_mob_mail.png" class="img-fluid justify-content-start img-light" alt="">
+                <img src="/social1.png" class="img-fluid justify-content-end" alt="">
+            </a>
+            <hr class="border border-2 border-light">
+            <a class="navbar-brand" href="#">
+                <img src="/logo.png" class="img-fluid img-thumbnail" alt="luxon construction">
+            </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Commercial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Residential</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Consulting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="intro">
+        <div class="masthead" style="background-image: url('/assets/mumbai-skyline-skyscrapers-construction\ 1.png');">
+            <div class="color-overlay d-flex justify-content-center align-item-center">
+                <div class="text-center">
+
+                    <!-- main heading -->
+
+                    <h1 class="fw-bold">
+                        The best construction solution in the world
+                    </h1>
+
+                    <p class="text-wrap">
+                        Construction is a general term meaning the art and science to form objects, systems, or
+                        organizations, and comes from Latin constructio and Old French construction. To construct is the
+                        verb: the act of building, and the noun is construction: how something is built, the nature of
+                        its structure.
+                    </p>
+
+                    <!-- buttons -->
+
+                    <button type="button" class="btn btn-danger ms-3 mb-2" style="--bs-btn-padding-y: .8rem;
+                            --bs-btn-padding-x: 3rem;--bs-btn-font-size: 0.75rem;">Contact Us -></button>
+
+                    <button type="button" class="btn btn-light ms-3 mb-2" style="--bs-btn-padding-y: .8rem;
+                            --bs-btn-padding-x: 3rem;--bs-btn-font-size: 0.75rem;">See our work -></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,557 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* navbar */
+#social1 {
+  max-width: fit-content;
+  margin: 0px 0px 0px 0px;
+}
+
+#info {
+  max-width: fit-content;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar .container-xxl hr {
+  width: 100%;
+}
+
+#infos {
+  position: relative;
+}
+
+#hr {
+  position: absolute;
+
+  max-height: fit-content;
+}
+
+#logo img {
+  width: 180px;
+  height: 40px;
+}
+
+#logos {
+  position: relative;
+  margin-top: 10px;
+}
+
+.navbar {
+  flex-wrap: wrap;
+}
+
+#logo {
+  max-width: fit-content;
+}
+
+
+
+/* image and intro text */
+
+#intro {
+  background-image: url('/assets/mumbai-skyline-skyscrapers-construction\ 1.png');
+  background-size: cover;
+  height: 106vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  /* border: 3px solid cyan; */
+  background-position: center;
+  z-index: -1;
+  top: -250px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 11px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 2rem;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+}
+
+.masthead .text-center {
+  border: 2px;
+  width: 821px;
+  height: 376px;
+}
+
+@media only screen and (max-width: 700px) {
+  .color-overlay {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  .color-overlay {
+    height: 100%;
+    font-size: smaller;
+    padding: 75px 0px 0px 0px
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+
+/* Our Experience */
+#ourexperience {
+  display: flex;
+  justify-content: center;
+  height: 640px;
+  margin-top: -411px;
+  /* box-sizing: border-box; */
+}
+
+.box:first-child {
+  height: 170px;
+  margin-top: 160px;
+  background-color: rgba(210, 21, 61, 1);
+}
+
+#box2 {
+  height: 170px;
+  margin-top: 160px;
+  background-color: rgba(14, 41, 100, 1);
+}
+
+#ourexperienceimg {
+  max-width: 100%;
+  padding-left: 366px;
+  margin-top: -578px;
+}
+
+.box {
+  z-index: 1;
+}
+
+#ourexperiencer {
+  display: grid;
+  place-items: center;
+
+}
+
+.cont {
+  height: 480px;
+  width: 478px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 20);
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: 10px 10px 20px rgb(218, 218, 218);
+}
+
+.left {
+  max-width: fit-content;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.right h5 {
+  color: rgba(0, 33, 91, 1);
+}
+
+.left img {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(230, 243, 255);
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    width: 190px;
+    padding: auto;
+    margin-top: 0px;
+  }
+
+  #ourexperience {
+    width: 75%;
+    justify-content: start;
+    margin-top: 0;
+    display: flex;
+
+  }
+
+  #ourexperienceimg {
+    padding-left: 10px;
+
+  }
+
+  .oe {
+    width: 75%;
+    justify-content: center;
+    margin-top: -200px;
+  }
+}
+
+@media only screen and (max-width: 879px) {
+  #ourexperience {
+    width: 50%;
+    justify-content: start;
+  }
+
+  #ourexperience {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 807px) {
+  .box:first-child {
+    margin-top: 10px;
+  }
+
+  #box2 {
+    margin-top: 10px;
+  }
+
+  #ourexperience {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ourexperienceimg {
+    padding-left: 10px;
+    height: 600px;
+    margin-top: -329px;
+  }
+
+}
+
+@media only screen and (max-width: 492px) {
+  .cont {
+    width: 420px;
+  }
+
+}
+
+@media only screen and (max-width: 410px) {
+  .cont {
+    width: 374px;
+  }
+}
+
+@media only screen and (max-width: 362px) {
+  .cont {
+    width: 282px;
+  }
+}
+
+
+/* Who we are */
+
+#whoweare button {
+  --bs-btn-padding-y: .8rem;
+  --bs-btn-padding-x: 3rem;
+  --bs-btn-font-size: 0.75rem;
+  border-radius: 0;
+}
+
+#whoweare {
+  background-color: rgba(244, 250, 255, 1);
+}
+
+
+/* Our Work */
+
+#ourwork {
+  background-color: rgba(244, 250, 255, 0.69);
+}
+
+#ourwork button {
+  --bs-btn-padding-y: 0.9rem;
+  --bs-btn-padding-x: 2.5rem;
+  --bs-btn-font-size: 0.9rem;
+  border-radius: 0;
+}
+
+#ourworkimg img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.grid-wrapper>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-wrapper>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(357px, 1fr));
+  grid-auto-rows: 560px;
+  grid-auto-flow: dense;
+}
+
+@media only screen and (max-width: 990px) {
+  .grid-wrapper {
+    height: 400vh;
+  }
+
+  .grid-wrapper .img-fluid {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .grid-wrapper {
+    /* height: 630vh; */
+    margin-top: -80px;
+  }
+
+  .grid-wrapper .img-fluid {
+    width: 404px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .grid-wrapper {
+    /* height: 562vh; */
+    margin-top: -235px;
+  }
+
+  .grid-wrapper .img-fluid {
+    width: 60%;
+  }
+
+  .grid-wrapper .img1 {
+    margin-top: -260px;
+    margin-bottom: -440px;
+  }
+
+  .grid-wrapper .img2 {
+    margin-top: -56px;
+
+  }
+
+  .grid-wrapper .img3 {
+    margin-top: -56px;
+
+  }
+
+  .grid-wrapper .img4 {
+    margin-top: -56px;
+
+  }
+
+  .grid-wrapper .img5 {
+    margin-top: -56px;
+
+  }
+
+  .grid-wrapper .img6 {
+    margin-top: -94%;
+
+  }
+}
+
+/* PROJECT CARDS */
+
+#project {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.card {
+  flex-basis: 25%;
+  position: relative;
+  max-width: 360px;
+}
+
+#overlay2 {
+  background-color: rgba(0, 33, 91, 0.75);
+}
+
+#overlay3 {
+  background-color: rgba(210, 21, 61, 0.75);
+}
+
+#overlay4 {
+  background-color: rgba(0, 33, 91, 0.75);
+}
+
+#overlay2 .btn {
+  --bs-btn-padding-y: 0.7rem;
+  --bs-btn-padding-x: 1.2rem;
+  --bs-btn-font-size: 0.9rem;
+  border-radius: 0;
+  position: relative;
+  bottom: -150px;
+  right: -220px;
+}
+
+#overlay3 .btn {
+  --bs-btn-padding-y: 0.7rem;
+  --bs-btn-padding-x: 1.2rem;
+  --bs-btn-font-size: 0.9rem;
+  border-radius: 0;
+  background-color: rgba(0, 33, 91, 1);
+  position: relative;
+  bottom: -150px;
+  right: -220px;
+}
+
+#overlay4 .btn {
+  --bs-btn-padding-y: 0.7rem;
+  --bs-btn-padding-x: 1.2rem;
+  --bs-btn-font-size: 0.9rem;
+  border-radius: 0;
+  position: relative;
+  bottom: -150px;
+  right: -220px;
+}
+
+@media only screen and (max-width: 1440px) {
+  #project {
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  #projectCard {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #project .btn {
+    bottom: -40px;
+    right: -150px;
+  }
+}
+
+
+/* FAQ  */
+
+#accordionPanel {
+  width: 450px;
+  height: 380px;
+}
+
+.faqimg img {
+  width: 570px;
+  height: 430px;
+}
+
+@media only screen and (max-width: 550px) {
+  #accordionPanel {
+    width: 395px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #accordionPanel {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  #accordionPanel {
+    width: 270px;
+    height: 425px;
+  }
+}
+
+
+/* contact us */
+#contactusform {
+  background-color: rgba(255, 255, 255, 20);
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: 10px 10px 20px rgb(218, 218, 218);
+  opacity: 0.9;
+}
+
+#contactus .row img {
+  box-shadow: 20px rgb(218, 218, 218);
+}
+
+#contactus {
+  opacity: 0.89;
+}
+
+#contactusimg {
+  z-index: -1;
+  margin-top: -578px;
+  height: 570px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contactusimg {
+    height: 100%;
+  }
+}
+
+
+
+/* footer */
+footer {
+  background-color: rgba(41, 45, 50, 1);
+
+
+}
+
+.footer-top {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+.footer {
+  width: 33.3%;
+}
+
+.info {
+  width: 343px;
+  margin: 18px;
+  padding: 7px;
+}
+
+.footer-top img {
+  height: 50px;
+  width: 200px;
+}
+
+.footer-top p {
+  color: rgba(99, 115, 129, 1);
+}
+
+.footer-bottom {
+  background-color: rgba(26, 29, 34, 1);
+  color: rgba(99, 115, 129, 1);
+}
+
+.footer-bottom span {
+  color: #d9534f;
+}

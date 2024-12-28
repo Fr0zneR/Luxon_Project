@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            box-sizing: border-box;
+
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        /* horizontal rule */
+
+        hr {
+            width: 50rem;
+            margin: revert;
+        }
+
+        .navme {
+            width: 392px;
+            height: 17px;
+        }
+
+        .logo img {
+            width: 180px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-xxl">
+
+            <!-- navbar mob & email -->
+
+            <div class="navme d-none d-md-inline mt-2">
+                <a class="mob text-decoration-none text-white" href="#">
+                    <img src="/assets/call-calling.png" alt="#" sizes="" srcset="">
+                    <span>
+                        (+41) 0113 318 7261
+                    </span>
+                </a>
+                <a class="email text-decoration-none text-white ms-3" href="#">
+                    <img src="/assets/sms.png" alt="#" sizes="" srcset="">
+                    <span>
+                        infor@luxonconstruction.com
+                    </span>
+                </a>
+            </div>
+
+            <!-- navbar socials -->
+
+            <div class="social d-none d-md-inline justify-content-end mt-2 me-2">
+                <a class="social1" href="#">
+                    <img src="/assets/social1.png">
+                </a>
+            </div>
+
+            <!-- Horizontal rule -->
+
+            <hr class="border border-2 border-black mt-3">
+
+            <!-- logo & navbar-toggler -->
+
+            <div class="logo">
+                <img src="/assets/logo.png" class="img-fluid" alt="Luxon Construction">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">Commercial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Residential</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Consulting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+*{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* navbar */
+
+/* horizontal rule
+
+hr{
+    width: 40rem;
+    margin: revert;
+} */
+
+
+
+/* image and intro text */
+
+.masthead{
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border: 3px solid cyan;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 11px;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 2rem;
+}
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-center{
+    border: 2px;
+    width: 821px;
+    height: 376px;
+}
